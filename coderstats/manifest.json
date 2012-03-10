@@ -1,6 +1,6 @@
 {
   "name": "Coderstats link for Github",
-  "version": "1.2",
+  "version": "1.3",
   "description": "Display a link to the Coderstats page for the currently displayed user on github.com.",
   "icons":
     {
