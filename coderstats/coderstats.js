@@ -1,4 +1,3 @@
-var nick = $('.columns.profilecols"').attr('data-name');// assume user page
-if (!nick) nick = $('.pagehead.userpage').attr('data-name');// org page
-var url='http://coderstats.geeksta.net/coder/'+$.trim(nick);$('.page-profile .vcard').append('<dl><dt>Coderstats</dt><dd><a href="'+url+'">'+url+'</a></dd></dl>');
+var nick = $('em[itemprop="additionalName"]').text();// assume user page
+var url='http://coderstats.geeksta.net/coder/'+$.trim(nick);$('.details').append('<dl><dt><span class="mini-icon mini-icon-link"></span></dt><dd><a href="'+url+'">Coderstats</a></dd></dl>');
 
