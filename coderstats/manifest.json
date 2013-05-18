@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "version": "1.10",
+  "version": "1.11",
   "name": "Coderstats link for Github",
-  "description": "Display a link to the Coderstats page for the currently displayed user on github.com.",
+  "description": "Display a link to the CoderStats page for the currently displayed GitHub user when browsing github.com.",
   "icons": {
     "48": "logo-48x48.png",
     "128": "logo-128x128.png"
