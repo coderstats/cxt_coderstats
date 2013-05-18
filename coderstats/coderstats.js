@@ -5,7 +5,7 @@ if (m = path.match(/^\/([\w-]+)\??.*?/)) {
         var url = 'http://coderstats.net/github/' + login.trim() + '/';
         var details = document.getElementsByClassName('details');
         var dl = document.createElement('dl');
-        dl.innerHTML = '<dt><span class="mini-icon mini-icon-link"></span></dt><dd><a href="' + url + '">CoderStats(\'' + login + '\')</a></dd>';
+        dl.innerHTML = '<dt><span class="octicon octicon-link"></span></dt><dd><a href="' + url + '">CoderStats(\'' + login + '\')</a></dd>';
         details[0].appendChild(dl);
     }
 }
