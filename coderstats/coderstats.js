@@ -4,8 +4,10 @@ if (m = path.match(/^\/([\w-]+)\??.*?/)) {
     if (-1 === ['timeline', 'languages', 'blog', 'explore'].indexOf(login)) {
         var url = 'http://coderstats.net/github/' + login.trim() + '/';
         var details = document.getElementsByClassName('details');
-        var dl = document.createElement('dl');
-        dl.innerHTML = '<dt><span class="octicon octicon-link"></span></dt><dd><a href="' + url + '">CoderStats(\'' + login + '\')</a></dd>';
-        details[0].appendChild(dl);
+        if (details.length > 0) {
+            var dl = document.createElement('dl');
+            dl.innerHTML = '<dt><span class="octicon octicon-link"></span></dt><dd><a href="' + url + '">CoderStats(\'' + login + '\')</a></dd>';
+            details[0].appendChild(dl);
+        }
     }
 }
