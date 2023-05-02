@@ -6,7 +6,7 @@ var path = document.location.pathname,
 if (m = path.match(/^\/([\w-]+)\??.*?/)) {
     login = m[1].trim();
     if (-1 === ['timeline', 'languages', 'blog', 'explore'].indexOf(login)) {
-        url = 'http://coderstats.net/github#' + login;
+        url = 'http://coderstats.github.io/github#' + login;
         details = document.getElementsByClassName('vcard-details');
         if (details.length > 0) {
             addLink();
