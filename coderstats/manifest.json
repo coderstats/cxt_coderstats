@@ -1,8 +1,8 @@
 {
-  "manifest_version": 2,
-  "version": "2.0.0",
+  "manifest_version": 3,
+  "version": "3.0.0",
   "homepage_url": "http://coderstats.github.io/",
-  "name": "CoderStats link for Github Coders",
+  "name": "DEV CoderStats link for Github Coders",
   "description": "Display a link to the CoderStats page for the currently displayed GitHub user when browsing github.com.",
   "icons": {
     "48": "logo-48x48.png",
